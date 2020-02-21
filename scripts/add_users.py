@@ -1,0 +1,70 @@
+from google.cloud import firestore
+import argparse
+import datetime
+import helpers
+import names
+import random
+
+gender_choices = [u'male', u'female']
+interest_choices = [u'ArtsCrafts', u'Auto', u'BoardGames', u'Cooking', u'CurrentAffairs', u'Dancing', u'DIYProjects', u'Fashion', u'Fitness', u'Food', u'Gadgets', u'Gardening', u'Movies', u'Music', u'Parenting', u'Pets', u'Photography', u'Reading', u'Spirituality', u'Sports', u'Travel', u'VideoGames']
+
+script_version=3
+
+def printUsers(db):
+  docs = helpers.queryUsers(db)
+  for doc in docs:
+    helpers.printSnapshot(doc)
+
+def getProfilPicUrl(gender):
+  tag = None 
+  if gender == u'male':
+    tag = 'men'
+  else :
+    tag = 'women'
+  return u'https://randomuser.me/api/portraits/' + tag + '/' + str(random.randint(0, 50)) + '.jpg'
+
+def addUser(db, ref_lat, ref_lon, ref_range):
+  doc_ref = db.collection(u'users').document()
+  uid = doc_ref.id
+  gender = random.choice(gender_choices)
+  lat = ref_lat + random.uniform(-ref_range, ref_range)
+  lon = ref_lon + random.uniform(-ref_range, ref_range)
+  interests = {}
+  no_interests = random.randint(2, 6)
+  for i in range(0, no_interests):
+    interests[random.choice(interest_choices)] = True
+  doc_ref.set({
+    u'desc': u'Test user created using a script',
+    u'id': unicode(uid),
+    u'name': names.get_full_name(gender=gender),
+    u'linkUrl': u'https://www.google.com',
+    u'email': u'fake@gmail.com',
+    u'profilePicUrl': getProfilPicUrl(gender),
+    u'discoverable': True,
+    u'gender': gender,
+    u'age': random.randint(14,80),
+    u'timestamp': datetime.datetime.utcnow(),
+    u'interests': interests,
+    u'location': [lat, lon],
+    u'createdByScript': True,
+    u'scriptVersion': script_version
+  })
+  doc = doc_ref.get()
+  helpers.printSnapshot(doc)
+
+
+if __name__ == '__main__':
+  parser = argparse.ArgumentParser()
+  parser.add_argument("-c", "--count", type=int, default=3)
+  parser.add_argument("--lat", type=float, default=37.0)
+  parser.add_argument("--lon", type=float, default=-122.0)
+  parser.add_argument("--range", type=float, default=-0.000001)
+  args = parser.parse_args()
+  db = firestore.Client()
+
+
+  for i in range(0, args.count):
+    addUser(db, args.lat, args.lon, args.range)
+
+  # Uncomment to print all users
+  # printUsers(db)

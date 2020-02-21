@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\d4971bf071d71a07fa0076f12c4e04e6f28b2406\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="e9b03dd36d3c106574e2cdeb8edd543bd5e51d0e">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_10ed7c3aa93423e8b316cf3cb827b4a861dfc3ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\f039c9b8633486fb3641956bdc30b4de919eafd8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="5a7cf2a41aedccc427107ebb37762a5e2f5be590">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e744aaf41d302e46fd4f71916eb6ace0ec365b2d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\22ff57afe89507a5ecc138cda367728b42659a89\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="b9aff7eec7a0b091e460e44b8bb0bf64cadc0844">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d89ffdd9726d8cfbeb60e7e5ea18a66db30fb84a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_cb929f66e2f8e73c259e7020f0fbbe705b396166\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.gradle\caches\modules-2\files-2.1\com.android.support\collections\28.0.0\c1bcdade4d3cc2836130424a3f3e4182c666a745\collections-28.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="c1bcdade4d3cc2836130424a3f3e4182c666a745">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\collections-28.0.0_f3641ea0f5ad90e63b698c52a066ff1195f42882\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.gradle\caches\modules-2\files-2.1\org.parceler\parceler-api\1.1.6\2a06b6b1ecf5dadee8a874dfb51ad018fde3e6c5\parceler-api-1.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="2a06b6b1ecf5dadee8a874dfb51ad018fde3e6c5">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\parceler-api-1.1.6_782243dc9a2db8bf926b6f943ddacb45eabb7aa4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\fbeac1c1c82a25af8b17ceaf3d83c59f424c2e21\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="2d45b277afdf55bcfdc005c03c0c2f1733aaa1b0">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_daacfeb9a7a7566e9258fba025ee87bfb2c0de4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.4.0_57a9276915dcd16426d2c046b256873fae1837d9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\bc833928f91197276e624962a014a36d75fb0281\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="b99e6cdcb85894164e1a06145a5f6b78e3cb7270">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_860dbf7bde1ecdf9b652bade43a3993fda02ef8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\e05c7709f4b37da091e80eba30e07b9ea7aad20f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="5b049b5525643f62ebe162013dae975c7e74dcc5">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_64f972910eb2d530f8a3e702e6ebacab3f2e9e21\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\ab5aa4e24eb944b4c30f889d845642de3106fff7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="e70a3fed299d84cd868614e11021664d72b8e488">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_de463018e28bca5429d77490dd099cb84556ffc6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\f069cbe63717ae61df19bd6ae88a824137644d55\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cc412b3bfd0e2a9e912b5af6f2c6c84b1eafb5d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\fd8ca3bfafee090be306bd39ac73a71738c18063\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="a6d4c3181151ffbcd67897e94c688f6c200c5bec">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_011432405909b483ef2711f4bc4a2826e99abac2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="bd5f5e07c37251e18da8f758800fa643b57221e8">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_038dc0a401627be8137e6ec48e2a52846604bec8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\09b2ffc4571f4816e340ce82db82c70923435186\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="de467de1baba33a922246561f87c0a910206d1ff">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3c6be6ad1ca800d37d31632ccc49ace068f7ded1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\e69f9196165d7d2381316f6c5abe23cddc1682ba\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="234e706c7aea09f97738c7830d144d50d240079e">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_da455a4e0aa970b8fcca6b0a1d5e8ca31f8a82f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_2a8b078064bfa08e979ef17481a6f102cb5fedb3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\face6f7881ef76a632a078a8ee25dfa1a790b6d8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="b1173d9f45ae18f2e0dc8ec42d15fa5b95c391d1">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c350a39c2f509aca809b83617dd5f7ed859a263c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\7b77aabce3efc51d3e69f2202a06d68afbf0a575\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="c0c5e5fecc416c509eb71d149c9c42bc1c09d181">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_065c1015a1b47a915dd75991a36b76f7c16b8bdb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\09e681ca5ff5739d1477c881c18fccde93c39942\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="a5423d080755901cc399daa76490ee65820e75fb">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1ad1e83e10f533e5c15fe7ecd9cd070ecfb5ea13\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\6706c77ed98af1e2e149c5d671777baab2a5541b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="41b8c7e99024d4288d7dfc709bb72fdaa5fdc32f">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_70de8602a45d12a1a3bb09c1c448f3ddeafbff53\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\15e536e3921992afccac59c44e3417e5420541ce\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="7b15ada2209f82b0249f331cb7ec70394dc2e828">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b0b4dc7903aceb2bc63ba9ae263ec9b24b81171e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\cbf6209a79c63dd0708faccefa1bf43b9c71a64c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="c2cadea4d8a1a5b5c4e5f0dc99a99a43774f5e6e">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e3aee8c902db38eb79aff1c33556f01b157ccb39\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\9b4e1de03d36ada675331546cd753c1d1f540eb5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="ada02cfa6d6403e90138de411c67d8f6763b3018">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_64a9313f3a30787363bb791cd990eebd20694ef1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\9a57f9dedfaa3a2c4c16be091fe171bb5b38d3f2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="8040d53ecd4bd895360eafdc25e1c1cc9479e6aa">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_815195e6604940dc7dc13bb90793688e39ea6147\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\064053cd488064c9a72e4728acd69a51e00ec6cb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="2e85417e7990657be8fe07d63fd5278d82eb960e">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2fe9fea91b07b6226a7c066950634c196a07e6a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\3a203f0f6a1cae25f3ec27849883d1e7e0af735d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="7045152f3bd1870740b9bcb1cddff495e189774e">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_750bbc974d4d39359a03f9b3463625ee610761bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\7572f0dd23307f57eb581978d242ccf4159e2640\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="376a25a3bdce5133262368e85d430aae5bb80c28">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5e02779251f02a0e639ef8cb4a326ce3bab10c46\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\76a8747e65dbb5437f295388f4f5a7028990cac9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="204f607419af8247cc1b2a61f50663c65f841c12">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e002d591d58a3c467ef6d30235ddd098366409e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\28.0.0\ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8\support-annotations-28.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-28.0.0_d83d2ea4b20d49f8a7538a5d97a360dff874a2c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\2e58e82f0e58a63a32fb69f885f4af3cab4e68e9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="73c80b05a390e8319d1ef7a236739cd610c8f774">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_32ca22ffa7693015002f8867135aa0d89a431584\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\6ced6944a53be5572b114de60bbd3e4eeb584e04\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="afb9ac89f722ac83466f1bb5f2135010b7f05f32">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c7a610c55129aa3002e46af098319cdc407512aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\a5e68410faf6192e5a43eca21863413ea09e538d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="f77c6cfaee7ee7c8844d5340e47a38c3fdea7060">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e2bc1af56d4be3bd341011235a5323477db32014\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\20.0\89507701249388e1ed5ddcf8c41f4ce1be7831ef\guava-20.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="89507701249388e1ed5ddcf8c41f4ce1be7831ef">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\guava-20.0_6678c97549686dfce512ac97754a1d4a749fd24b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\4a212d449537b2e1f15c86803ec2ec4ff2de13c8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="646439081688c43e04ec4aa7ba6915ddfdcc337f">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_91ce8604e53b5ae5d9089e41df4ff6afb065198a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\f5430347763e056405c3d837b7bd587fa2cfaeac\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="a38dc57bd3a0900f291f38e4786cde461aece5a9">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ff264b9fa99ad5a348054c5217df5e873f4af390\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\4dcae7bd43fc3558629e44f3280ef6da361bae5f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="461929440e66685425a298693507f6fb27b0a872">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c08c1c5e48bd6b6e780925dc131179a6dc04a10b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\30be6de03a10406e8c4823a4f9e892979c9411c8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="be31b531309a9196873ba4ac96ea9484ca0ecad6">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_872e96ed154c946194d69606ebc31efecafe7bea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\3c6ba3fb85731d3f83ed210803e86518bcaef4b4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="19e63f5c3afd0a4379bfb830816bb8a9661aba75">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_abeaa3ef14483638e2494418e741118db1f947d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\4ad30ddfdf68d4166071f13e45d532154d0f8c83\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="775715f20fc19479343592af2fa4d46c7d00fa5e">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0dc462abb96888c95023b38530c343e204628c9e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\b59386cb99c54d6a8c7637536914749b6b5224c6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="8484d5b4369cc7ab8d5722290ed25d134afde322">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8c976f2212eaed56b18c3c788d4a21a2e350c141\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\64ebeb1f0abeb43a2ee73911e0a9c32c2893bd9e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="7a9f96bfbb71dc928a5d01440d879ef17f3f2349">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e8b1eb6d4c3c56db692b8e3144e5e3e7ea37f18e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.2\3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf\gson-2.8.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.8.2_532e57a6b10a5a0cb88262e1bac8210e4944aa39\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_faab09a242ec9f4b1c224347fe0dd29e722b6c3b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.7.2\20f6463eb19ac61960c5d91a094c2f4f0727dc2e\okhttp-2.7.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="20f6463eb19ac61960c5d91a094c2f4f0727dc2e">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.7.2_2b64bc9dd95bd2505b13ec7d57db58c555c522b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\ac704fc8e0d91c7e0203f1b3e3bd639d747cf3ed\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="f1c031c4ca26cea0adbe178007dd3bfd311be983">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a07574027018ea73685c2e33c0096b2fc8424e4e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\aace737d531b1ec421abac7f0b4ebd46a2a94658\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="3fec43a847d8788b7642a1932e6266ef8bdab169">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b02f8cea72612cf092368b9e2d9c511a3c8816b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\efae4d6baa81119cc630323a0f6435f789a314df\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="ba4c894fd0a3d36e8f06f4947ab639140e668088">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_49d4df18399d998e4cb82f7af0c390f7d131f249\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.1.1\e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95\common-1.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\common-1.1.1_2066ec9e67de05e63a7ad005d6bb543a9bb7d8c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\965e4294f61f1cf85a3f9177d8e98503d45f2328\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="a69067467c7e4d5c810ea19ee43cbfab00a292b4">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6481b1791f5992b1677fde5bf2edc8005f61cef9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_62ec7874e295c511d961de1d5bab1c1541c9353a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\1033a1d39d959563af37d2f7a7e7220e6c42596f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="ef698b3c8609d86cac06834429a39ef417d5b57a">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dc50f99e40c7c4976199d14474716ddf8af90146\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\acdced394cdf2644feb6a5ab4912bc04c6cce3f8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="84999659741580bdfadc0bb615e31d6796e62074">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_79f14372149ac224f28fbe1a76915cb8d714d1d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\d06eac66af0d3a25fc20a73c9e6c6722f531f4c6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="6e9a80bf5e66ad02082de42bc800d7db28d3a2b4">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dd5214f29a9ffd19f14c983f59a09aaaba9cb1e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\119cd0f7766b8e8fe0c11f188136db56aa9b3fd2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="20d6aa9a18ea9833cd2bee95dff7cd303cdb80e4">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_073359936dbb3adf50a32a8fdfd53003fa91d709\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\133b05aa5203dde9b53611da9a6405aaf72e28da\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="8510837b7e70ee5f12cf2a20dd0a1b3d23a0cdeb">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_eab9f255a4c3f75b79bf6f7f8e61111e6ca113e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\d31c63ff7025df67f84844e4e2a6ff4076eeaa4d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="5f519b8c692038a47ee404b6ea6b847f6402000c">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0e61d397d0515c7ab2cc7b3075bdff5294f26611\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.8.0\9bada650e1afe9c6174ddc0d113c1fce4dc26fe0\glide-3.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="9bada650e1afe9c6174ddc0d113c1fce4dc26fe0">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.8.0_b0e955f59c9d403f5817e9c2b652cd23f1879bfa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.1.1\207a6efae6a3555e326de41f76bdadd9a239cbce\common-1.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="207a6efae6a3555e326de41f76bdadd9a239cbce">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\common-1.1.1_1b75695ba8c951016864a3ecd8e989c9482ce3e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\71f359f3fb2043d4c90370c8a1d9a0a6ea481959\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="005d20a198159b87f65812fc5c51b2d84c5eba0a">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cd177b0599266809608b06ea065418c37ce1d8a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\c51da5c23576a7fb2e8c1f68156c715c61205dd9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="2db5562b0d7b8af078d2a6243a31e29d865f386f">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c2b80cb838cc0b3d114dbadd0151162016274cda\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\2c6b10413d2531edb4f72a270283a718144fbb11\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="bc0d71e8828a145ca4aebde8f6897608070f8863">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_16027af761a2b28f373744586818491b536c773f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\60aeae12adacd1b7a34e80157833f0296687a579\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="f14a4aa629f8fe6157d4441348982a1822e80622">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1957ac0c48cb7bd090ac7c28a98538e155b05ac4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\8c6a363164a24d42a5403e14d5cbc536259c073d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="925ec89d545e33030131b9470db85e701a8c61a4">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8546b8614047aad4011c99a4e8a307763db7df72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.3.0\73c49077166faa4c3c0059c5f583d1d7bd1475fe\core-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.3.0_4efe59261b57e4a10c4c1543158e8c59b83ca3cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\18da9627fe031444de2a63b1d6e2bc17347738bd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ed58ea6d181647ad2d5267f79b206334e021a3ea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\c51106acffb08637a7bfec7cf61bc5178976800c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="959e93110fdadc7e1f37b0f0b067c75ad3b546ae">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_846bd0571f942858198d6c61340d8fe7468d6201\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\99c5f674b583b8d91061d69395c7542a469d68ef\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="49b8af59d5819c80792707bdda93a5c9a917e24c">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_60445d1c8b1962680f06f4b70e026f64ffcc7e03\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\f825e5413d90e5ccaad41716dbb167126f15f9b5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="9335f203759bfcda4b6ea729dddcf06c07150d3f">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_055b0ffe2c7a90f590e86921a99e90d04a4f2017\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\4dcb29cba7630c7097de74688353272d14bbd072\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="ddfc0d219f43bf3c1e357a55284cbd1000e461bf">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_de3567b374b53d2b2a7e7f2756ea212003d14975\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\8cfc824a7e29f06e0e56f895642d7bf096cfb491\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="70bf65523dc3db43f6c3749931976585a8f4dd20">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0d2a9c8f34ea7955818dcb34ba1f91e6911d5715\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\fb07daf62bcce15c985114992d452d33f7fcb392\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="6e6b94b72d7912a627fb1629c310b2bca9261f06">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c897bf26b51c1912479b2bc5ea33b1b581e4f27e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\36c043f1f3a14d4ab234f479defbed6b57b2f143\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="fad505737146925636e28753e26523c3a8a03e48">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_92c07ca9e5e6cf0e75202ab0c9f5dc3424f2f7f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\bb1766fd2595d08078153d7a061b692a102ec435\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="b05ce31f5d87a7f16cdbdbc5e3a7cf2190bf0118">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d71535d2f5600925a2f500ef5d97a22f34074fe6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\0495837d59c684b0e1f56b68b087bbff9860d050\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="643a2fd3bd06c44be5d20efc0ba4ca02036d2c8a">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_04925e2e953b39245f49e57c2a09c81ffbeed06b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.0.2\b9cd8fc6bd15cb915735d34535db30ece0c44603\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_a204b79cdc60fb938226c2f2eb5b6b4fa227a620\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\b784f9b59112675381dc1bb9098a0784722dd142\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="31b98191e7c892b25799dbe30c8124210a68e201">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3028303756185b94820dc88de99ce76fe5b82fa5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ritesh\.android\build-cache\0b21be066044e863a29a5930d697fc2f77df196a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.3"
+        sha1="bed98ea7af8c5c4202820875e856dd3eb296e22d">
+        <dex dex="C:\Users\Ritesh\AndroidStudioProjects\frinder-app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_af05d61b7ed5859f38287c4b350002bf2a2631d2\classes.dex" />
+    </item>
+
+</items>

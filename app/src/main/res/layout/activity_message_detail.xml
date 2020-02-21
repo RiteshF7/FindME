@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.frinder.frinder.activity.MessageDetailActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <com.stfalcon.chatkit.messages.MessageInput
+        android:id="@+id/miInput"
+        app:showAttachmentButton="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:inputHint="Enter a message"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPlaces"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_above="@id/miInput"
+        android:drawSelectorOnTop="false"
+        android:visibility="gone"
+        tools:context=".activity.MessageDetailActivity" />
+
+    <com.stfalcon.chatkit.messages.MessagesList
+        android:id="@+id/mlMessages"
+        app:textAutoLink="all"
+        app:outcomingDefaultBubbleColor="@color/light_grey"
+        app:outcomingDefaultBubblePressedColor="@color/gray"
+        app:outcomingTextColor="@color/black"
+        app:outcomingTimeTextColor="@color/black"
+        app:incomingDefaultBubbleColor="@color/colorPrimaryLight"
+        app:incomingDefaultBubblePressedColor="@color/colorPrimary"
+        app:incomingTextColor="@color/white"
+        app:incomingTimeTextColor="@color/white"
+        android:layout_below="@id/toolbar"
+        android:layout_above="@id/rvPlaces"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

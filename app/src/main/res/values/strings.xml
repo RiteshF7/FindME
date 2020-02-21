@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Frinder</string>
+    <string name="force_crash_results">See CrashAnalytics on your Fabric Dashboard in about a minute or so</string>
+    <string name="facebook_app_id">198477538227848</string>
+    <string name="fb_login_protocol_scheme">fb198477538227848</string>
+    <string name="tv_discover_users_label">Search</string>
+    <string name="tv_btn_request_to_meet_label">Meetup?</string>
+    <string name="tv_btn_existing_request_label">Sent</string>
+    <string name="no_requests">No requests</string>
+    <string name="tv_new_tag">New</string>
+    <string name="tv_accept">Accept</string>
+    <string name="tv_deny">Deny</string>
+    <string name="tv_cancel">Cancel Request</string>
+    <string name="tv_message">Message</string>
+    <string name="tv_navigate_to">Navigate To</string>
+
+
+    <!-- TODO: Come up with better names-->
+    <string name="title_incoming">Incoming</string>
+    <string name="title_outgoing">Outgoing</string>
+    <string name="title_accepted">Accepted</string>
+    <string name="snackbar_no_internet_action">Quit</string>
+    <string name="snackbar_no_internet_message">No Internet connection!</string>
+    <string name="interests_label">Interests:</string>
+    <string name="tv_btn_sent_label">Sent</string>
+    <string name="notification_shortcut">Notification</string>
+    <string name="message_shortcut">Messages</string>
+    <string name="discover_shortcut">Discover</string>
+
+    <!-- For interest filter in discover activity -->
+    <string-array name="filter_interest_label">
+        <item>Arts &amp; Crafts</item>
+        <item>Auto</item>
+        <item>Board Games</item>
+        <item>Cooking</item>
+        <item>Current Affairs</item>
+        <item>Dancing</item>
+        <item>DIY Projects</item>
+        <item>Fashion</item>
+        <item>Fitness</item>
+        <item>Food</item>
+        <item>Gadgets</item>
+        <item>Gardening</item>
+        <item>Movies</item>
+        <item>Music</item>
+        <item>Parenting</item>
+        <item>Pets</item>
+        <item>Photography</item>
+        <item>Reading</item>
+        <item>Spirituality</item>
+        <item>Sports</item>
+        <item>Travel</item>
+        <item>Video Games</item>
+    </string-array>
+    <string-array name="filter_interest_forDB">
+        <item>ArtsCrafts</item>
+        <item>Auto</item>
+        <item>BoardGames</item>
+        <item>Cooking</item>
+        <item>CurrentAffairs</item>
+        <item>Dancing</item>
+        <item>DIYProjects</item>
+        <item>Fashion</item>
+        <item>Fitness</item>
+        <item>Food</item>
+        <item>Gadgets</item>
+        <item>Gardening</item>
+        <item>Movies</item>
+        <item>Music</item>
+        <item>Parenting</item>
+        <item>Pets</item>
+        <item>Photography</item>
+        <item>Reading</item>
+        <item>Spirituality</item>
+        <item>Sports</item>
+        <item>Travel</item>
+        <item>VideoGames</item>
+    </string-array>
+</resources>
