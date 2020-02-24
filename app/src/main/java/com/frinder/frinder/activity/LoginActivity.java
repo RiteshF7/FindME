@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
@@ -16,6 +17,7 @@ import com.facebook.GraphRequest;
 import com.facebook.GraphResponse;
 import com.facebook.Profile;
 import com.facebook.ProfileTracker;
+import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 import com.frinder.frinder.R;
@@ -37,13 +39,13 @@ public class LoginActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         FacebookSdk.sdkInitialize(getApplicationContext());
         setContentView(R.layout.activity_login);
-        FacebookSdk.sdkInitialize(getApplicationContext());
-        Log.d("AppLog", "key:" + FacebookSdk.getApplicationSignature(this));
-        loginButton = (LoginButton) findViewById(R.id.login_button);
-       
         callbackManager = CallbackManager.Factory.create();
-
-        loginButton.setReadPermissions(Arrays.asList("public_profile", "email"));
+        loginButton = (LoginButton) findViewById(R.id.login_button);
+        //loginButton.setReadPermissions(Arrays.asList(EMAIL));
+        loginButton.setReadPermissions("email", "public_profile", "user_friends");
+        AccessToken accessToken = AccessToken.getCurrentAccessToken();
+        boolean isLoggedIn = accessToken != null && !accessToken.isExpired();
+        LoginManager.getInstance().logInWithReadPermissions(this, Arrays.asList("public_profile"));
 
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
@@ -89,9 +91,9 @@ public class LoginActivity extends BaseActivity {
             @Override
             public void onError(FacebookException e) {
                 Log.e(TAG, "Error " + e.toString());
-//                Intent returnIntent = new Intent();
-//                setResult(Activity.RESULT_CANCELED, returnIntent);
-//                finish();
+                Intent returnIntent = new Intent();
+                setResult(Activity.RESULT_CANCELED, returnIntent);
+                finish();
             }
         });
     }

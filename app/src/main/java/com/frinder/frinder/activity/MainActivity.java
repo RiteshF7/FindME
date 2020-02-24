@@ -133,7 +133,7 @@ public class MainActivity extends BaseActivity {
     }
 
     public void readUserComplete(User user) {
-        Log.d(TAG, "Read user from firebase " + user.toString());
+     //   Log.d(TAG, "Read user from firebase " + user.toString());
         //loggedUser has the user fetched from firebase
         loggedUser = user;
     }

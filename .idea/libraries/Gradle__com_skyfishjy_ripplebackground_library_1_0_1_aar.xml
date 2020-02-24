@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.skyfishjy.ripplebackground:library:1.0.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef9a151016e64ac78cc8e644a71b2428/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef9a151016e64ac78cc8e644a71b2428/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/28bed34068e2a8f5bee5e9acd08dbb01/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/28bed34068e2a8f5bee5e9acd08dbb01/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
