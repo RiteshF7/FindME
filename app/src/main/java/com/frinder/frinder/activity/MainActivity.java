@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 
 import com.facebook.Profile;
@@ -16,6 +17,8 @@ import com.facebook.login.LoginManager;
 import com.frinder.frinder.dataaccess.UserFirebaseDas;
 import com.frinder.frinder.model.User;
 import com.google.firebase.FirebaseApp;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -37,9 +40,13 @@ public class MainActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 //        setContentView(R.layout.activity_main);
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("message");
+
+        myRef.setValue("Hello, World!");
         try {
             PackageInfo info = getPackageManager().getPackageInfo(
-                    getPackageName(),
+                getPackageName(),
                     PackageManager.GET_SIGNATURES);
             for (Signature signature : info.signatures) {
                 MessageDigest md = MessageDigest.getInstance("SHA");
@@ -79,13 +86,14 @@ public class MainActivity extends BaseActivity {
             @Override
             public void onUserReceived(User user) {
                 readUserComplete(user);
+               // Toast.makeText(MainActivity.this, ""+user.getId(), Toast.LENGTH_SHORT).show();
             }
         });
       //  Crashlytics.setUserName(profile.getName());
         //TODO sent profile user data with intent
-        Intent discoverIntent = new Intent(this, DiscoverActivity.class);
-        startActivity(discoverIntent);
-        finish();
+//        Intent discoverIntent = new Intent(this, DiscoverActivity.class);
+//        startActivity(discoverIntent);
+//        finish();
     }
 
     private void facebookUserLogin() {
@@ -111,7 +119,7 @@ public class MainActivity extends BaseActivity {
                     userFirebaseDas.addUser(loggedUser);
                     editProfile();
                 } else {
-                    //Toast.makeText(this,"Profile is null",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this,"Profile is null",Toast.LENGTH_SHORT).show();
                 }
             }
             if (resultCode == Activity.RESULT_CANCELED) {

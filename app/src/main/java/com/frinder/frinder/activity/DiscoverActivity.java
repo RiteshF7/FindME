@@ -108,6 +108,7 @@ public class DiscoverActivity extends BaseActivity {
             @Override
             public void onUserReceived(User user) {
                 currentUser = user;
+                user.getLocation();
                 if(currentUser.getLocation()!=null && currentUser.getLocation().size() > 0) {
                     getdiscoverUsers();
                 }

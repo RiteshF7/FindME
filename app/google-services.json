@@ -1,39 +1,45 @@
 {
   "project_info": {
-    "project_number": "25931054402",
-    "firebase_url": "https://projectfrinder.firebaseio.com",
-    "project_id": "projectfrinder",
-    "storage_bucket": "projectfrinder.appspot.com"
+    "project_number": "109433872211",
+    "firebase_url": "https://dots-51882.firebaseio.com",
+    "project_id": "dots-51882",
+    "storage_bucket": "dots-51882.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:25931054402:android:ad3f1952d84702f7",
+        "mobilesdk_app_id": "1:109433872211:android:36994aa887595f25dc8ba6",
         "android_client_info": {
           "package_name": "com.frinder.frinder"
         }
       },
       "oauth_client": [
         {
-          "client_id": "25931054402-pjud61u7sij0kgbjmicc17i93u60om0d.apps.googleusercontent.com",
+          "client_id": "109433872211-1ticupgi2sihkinf28dunf2ll85b87p5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.frinder.frinder",
+            "certificate_hash": "cb9f8247f868784e484ab5cd1218a8d1082e5644"
+          }
+        },
+        {
+          "client_id": "109433872211-15kenasck6aqht9v9p2qb9lqucmkvik2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA6JVotqW2RehOTYwmthiY6zHW0hhnz0Jc"
+          "current_key": "AIzaSyDKbnApYxcmV2iajz3EXrDioGiPzcz4Qlo"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109433872211-15kenasck6aqht9v9p2qb9lqucmkvik2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

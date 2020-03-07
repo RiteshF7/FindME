@@ -112,11 +112,10 @@ dependencies {
     implementation 'org.parceler:parceler-api:1.1.13'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
     implementation 'org.apmem.tools:layouts:1.10@aar'
-    implementation'com.github.stfalcon:chatkit:0.3.3'
+    implementation 'com.github.stfalcon:chatkit:0.3.3'
     testImplementation 'junit:junit:4.12'
     annotationProcessor 'org.parceler:parceler:1.1.13'
     implementation 'com.skyfishjy.ripplebackground:library:1.0.1'
     implementation 'jp.wasabeef:recyclerview-animators:3.0.0'
 }
 apply plugin: 'com.google.gms.google-services'
-
