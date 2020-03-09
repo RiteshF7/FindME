@@ -31,9 +31,11 @@ public class UserFirebaseDas {
         this.context = context;
         this.app = FirebaseApp.initializeApp(context);
         this.db = FirebaseFirestore.getInstance();
+
     }
 
     public void updateUserTimestamp(String id) {
+
         DocumentReference userRef = db.collection("users").document(id);
         Map<String, Object> userData = new HashMap();
         userData.put("timestamp",new Date());

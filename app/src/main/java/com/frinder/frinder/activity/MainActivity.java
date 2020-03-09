@@ -17,13 +17,18 @@ import com.facebook.login.LoginManager;
 import com.frinder.frinder.dataaccess.UserFirebaseDas;
 import com.frinder.frinder.model.User;
 import com.google.firebase.FirebaseApp;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-
-
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 
 public class MainActivity extends BaseActivity {
@@ -40,10 +45,39 @@ public class MainActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 //        setContentView(R.layout.activity_main);
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("message");
+//        FirebaseDatabase database = FirebaseDatabase.getInstance();
+//        DatabaseReference myRef = database.getReference("message");
+//        myRef.setValue("Hello, World!");
 
-        myRef.setValue("Hello, World!");
+        // Add a new document in collection "cities"
+
+//        FirebaseFirestore db;
+//        FirebaseApp app;
+//        app= FirebaseApp.initializeApp(this);
+//        db=FirebaseFirestore.getInstance();
+//
+//
+//        // Add a new document in collection "cities"
+//        // Create a Map to store the data we want to set
+//        Map<String, Object> docData = new HashMap<>();
+//        docData.put("name", "Los Angeles");
+//        docData.put("state", "CA");
+//        docData.put("country", "USA");
+//        docData.put("regions", Arrays.asList("west_coast", "socal"));
+// Add a new document (asynchronously) in collection "cities" with id "LA"
+//        ApiFuture<WriteResult> future =
+// ...
+// future.get() blocks on response
+//        db.collection("ritesh").document("LA").set(docData);
+        // Write a message to the database
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+
+
+        Toast.makeText(this, "task exec !", Toast.LENGTH_SHORT).show();
+//        System.out.println("Update time : " + future.get().getUpdateTime());
+
+
+
         try {
             PackageInfo info = getPackageManager().getPackageInfo(
                 getPackageName(),
