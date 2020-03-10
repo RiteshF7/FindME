@@ -104,7 +104,7 @@ public class DiscoverActivity extends BaseActivity {
         profile = Profile.getCurrentProfile();
 
         userFirebaseDas = new UserFirebaseDas(DiscoverActivity.this);
-        userFirebaseDas.getUser(profile.getId(), new UserFirebaseDas.OnCompletionListener() {
+        userFirebaseDas.getUser("123", new UserFirebaseDas.OnCompletionListener() {
             @Override
             public void onUserReceived(User user) {
                 currentUser = user;

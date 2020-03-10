@@ -2,6 +2,8 @@ package com.frinder.frinder.dataaccess;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
+import androidx.multidex.MultiDex;
+
 import android.util.Log;
 
 import com.frinder.frinder.model.User;
@@ -31,6 +33,8 @@ public class UserFirebaseDas {
         this.context = context;
         this.app = FirebaseApp.initializeApp(context);
         this.db = FirebaseFirestore.getInstance();
+        MultiDex.install(context);
+
 
     }
 
@@ -75,7 +79,23 @@ public class UserFirebaseDas {
     }
 
     public void addUser(final User user) {
+
         Map<String, Object> usr = convertToFirebaseObject(user);
+//        DocumentReference documentReference = FirebaseFirestore.getInstance().document("sampleData/inspiration");
+//        Map<String,Object> dataToSave = new HashMap<>();
+//        dataToSave.put("Authot_key","dataOne");
+//        dataToSave.put("QuoteKey","dataTwo");
+//        documentReference.set(usr).addOnSuccessListener(new OnSuccessListener<Void>() {
+//            @Override
+//            public void onSuccess(Void aVoid) {
+//                Log.d(TAG, "AddUser: DocumentSnapshot successfully written!");
+//            }
+//        }).addOnFailureListener(new OnFailureListener() {
+//            @Override
+//            public void onFailure(@NonNull Exception e) {
+//                Log.w(TAG, "AddUser: Error writing document", e);
+//            }
+//        });
         db.collection("users").document(user.getUid())
                 .set(usr)
                 .addOnSuccessListener(new OnSuccessListener<Void>() {

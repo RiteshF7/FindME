@@ -12,8 +12,11 @@ import android.view.View;
 import android.widget.Toast;
 
 
+import androidx.multidex.MultiDex;
+
 import com.facebook.Profile;
 import com.facebook.login.LoginManager;
+import com.frinder.frinder.R;
 import com.frinder.frinder.dataaccess.UserFirebaseDas;
 import com.frinder.frinder.model.User;
 import com.google.firebase.FirebaseApp;
@@ -44,7 +47,8 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_main);
+        MultiDex.install(this);
+        //  setContentView(R.layout.activity_main);
 //        FirebaseDatabase database = FirebaseDatabase.getInstance();
 //        DatabaseReference myRef = database.getReference("message");
 //        myRef.setValue("Hello, World!");
@@ -105,15 +109,22 @@ public class MainActivity extends BaseActivity {
     }
 
     private void logUser() {
+        Toast.makeText(this, "log profile !@", Toast.LENGTH_SHORT).show();
+
         profile = Profile.getCurrentProfile();
         if (profile == null) {
+            Toast.makeText(this, "testone profile !@", Toast.LENGTH_SHORT).show();
+
             facebookUserLogin();
         } else {
             readProfile();
+            Toast.makeText(this, "testtwo profile !@", Toast.LENGTH_SHORT).show();
+
         }
     }
 
     private void readProfile() {
+        Toast.makeText(this, "read profile !@", Toast.LENGTH_SHORT).show();
         profile = Profile.getCurrentProfile();
         userFirebaseDas.updateUserTimestamp(profile.getId());
         userFirebaseDas.getUser(profile.getId(), new UserFirebaseDas.OnCompletionListener() {
@@ -125,9 +136,9 @@ public class MainActivity extends BaseActivity {
         });
       //  Crashlytics.setUserName(profile.getName());
         //TODO sent profile user data with intent
-//        Intent discoverIntent = new Intent(this, DiscoverActivity.class);
-//        startActivity(discoverIntent);
-//        finish();
+        Intent discoverIntent = new Intent(this, DiscoverActivity.class);
+        startActivity(discoverIntent);
+        finish();
     }
 
     private void facebookUserLogin() {
@@ -143,6 +154,7 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        Log.i(TAG, "loveda");
         if (requestCode == LOGIN_RESULT) {
             if (resultCode == Activity.RESULT_OK) {
                 loggedUser = (User) data.getExtras().getSerializable("loggedUser");
